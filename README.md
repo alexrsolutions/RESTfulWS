@@ -1,13 +1,13 @@
 # RESTfulWS
 Final project in Advanced Computing using Java
-#Instalacion
+# Instalacion
 TODO: instalación
-#Uso
+# Uso
 TODO: como usa
-#Créditos
+# Créditos
 Salvador Alexandro Ramírez Martínez
 Matrícula: 2823053
-#Licencia
+# Licencia
 Estudiante, Tecmilenio Campus las Torres
-#Currently
+# Currently
 Developer branch
