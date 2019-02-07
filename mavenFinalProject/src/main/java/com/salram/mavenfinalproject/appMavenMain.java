@@ -10,5 +10,4 @@ package com.salram.mavenfinalproject;
  * @author Alex Ramirez
  */
 public class appMavenMain {
-    
 }
