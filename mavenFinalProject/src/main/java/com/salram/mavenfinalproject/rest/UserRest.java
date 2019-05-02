@@ -51,7 +51,7 @@ public class UserRest {
 		links.add(new Link(builder.path("/user/").build().toString(), "self"));
 		
 		List<Link> data = new ArrayList<Link>();
-		userService.getUsers().forEach(user -> data.add(new Link(ServletUriComponentsBuilder.fromCurrentServletMapping().toString(), "data")));
+		userService.getUsers().forEach(user -> data.add(new Link(ServletUriComponentsBuilder.fromCurrentServletMapping().path("/user/" + user.getUsername()).build().toString(), user.getUsername())));
 		
 		Map<String, Object> response = new Hashtable<>(2);
 		response.put("_links", links);
@@ -74,7 +74,7 @@ public class UserRest {
 		UserLinkListResource userLinksResource = new UserLinkListResource();
 		userLinksResource.addLink(new Link(builder.path("/").build().toString(), "api"));
 		userLinksResource.addLink(new Link(builder.path("/user/").build().toString(), "self"));
-		userService.getUsers().forEach(user -> userLinksResource.addUserLink(new Link(ServletUriComponentsBuilder.fromCurrentServletMapping().toString(), "data")));
+		userService.getUsers().forEach(user -> userLinksResource.addUserLink(new Link(ServletUriComponentsBuilder.fromCurrentServletMapping().path("/user/" + user.getUsername()).build().toString(), user.getUsername())));
 		return userLinksResource;
 	}
 	
@@ -91,7 +91,7 @@ public class UserRest {
 		ServletUriComponentsBuilder builder = ServletUriComponentsBuilder.fromCurrentServletMapping();
 		
 		List<Link> links = new ArrayList<Link>();
-		links.add(new Link(builder.path("/user/").build().toString(), "api"));
+		links.add(new Link(builder.path("/user/").build().toString(), "user"));
 		links.add(new Link(builder.path(username).build().toString(), "self"));
 		
 		Map<String, Object> response = new Hashtable<>(2);
