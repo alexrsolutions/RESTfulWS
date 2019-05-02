@@ -1,7 +1,7 @@
-package com.salram.mavenfinalproject.repository;
+package org.salram.utm.repository;
 import java.util.List;
 
-import com.salram.mavenfinalproject.model.User;
+import org.salram.utm.model.User;
 
 public interface UserRepository {
 	public List<User> getUsers();

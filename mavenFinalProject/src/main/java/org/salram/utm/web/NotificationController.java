@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.web;
+package org.salram.utm.web;
 
 import java.util.Arrays;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.View;
 
-import com.salram.mavenfinalproject.service.NotificationService;
-import com.salram.mavenfinalproject.view.NotificationView;
+import org.salram.utm.service.NotificationService;
+import org.salram.utm.view.NotificationView;
 
 @Controller
 public class NotificationController {

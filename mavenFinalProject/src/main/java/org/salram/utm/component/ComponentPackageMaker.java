@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.salram.mavenfinalproject.component;
+package org.salram.utm.component;
 
 /**
  * @author Alex Ramirez

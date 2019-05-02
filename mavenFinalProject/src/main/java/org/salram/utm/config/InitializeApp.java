@@ -1,11 +1,11 @@
-package com.salram.mavenfinalproject.config;
+package org.salram.utm.config;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
-import com.salram.mavenfinalproject.filter.Authorization;
+import org.salram.utm.filter.Authorization;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

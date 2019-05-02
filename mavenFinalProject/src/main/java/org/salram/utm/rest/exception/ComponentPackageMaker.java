@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.rest.exception;
+package org.salram.utm.rest.exception;
 
 /**
  * Clase vacía para indentificar el paquete 

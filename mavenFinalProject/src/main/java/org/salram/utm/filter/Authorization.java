@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.filter;
+package org.salram.utm.filter;
 
 import java.io.IOException;
 
@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.salram.mavenfinalproject.model.User;
+import org.salram.utm.model.User;
 
 /**
  * Servlet Filter implementation class Login

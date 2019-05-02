@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.web;
+package org.salram.utm.web;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.salram.mavenfinalproject.service.FileService;
+import org.salram.utm.service.FileService;
 
 @Controller
 public class UploadController {

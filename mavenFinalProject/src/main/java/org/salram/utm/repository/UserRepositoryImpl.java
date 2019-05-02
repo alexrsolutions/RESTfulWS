@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.repository;
+package org.salram.utm.repository;
 
 import java.util.ArrayList;
 import java.util.Hashtable;
@@ -9,7 +9,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Repository;
 
-import com.salram.mavenfinalproject.model.User;
+import org.salram.utm.model.User;
 
 	@Repository("userRepository")
 	public class UserRepositoryImpl implements UserRepository {

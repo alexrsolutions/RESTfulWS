@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.web;
+package org.salram.utm.web;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,9 +17,9 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.View;
 import org.springframework.web.servlet.view.RedirectView;
 
-import com.salram.mavenfinalproject.form.LoginForm;
-import com.salram.mavenfinalproject.model.User;
-import com.salram.mavenfinalproject.service.UserService;
+import org.salram.utm.form.LoginForm;
+import org.salram.utm.model.User;
+import org.salram.utm.service.UserService;
 
 	@Controller
 	public class LoginController {

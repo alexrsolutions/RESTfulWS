@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.component;
+package org.salram.utm.component;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

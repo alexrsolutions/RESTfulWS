@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.rest;
+package org.salram.utm.rest;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import org.springframework.http.HttpStatus;
 
-import com.salram.mavenfinalproject.model.Link;
-import com.salram.mavenfinalproject.model.Resource;
+import org.salram.utm.model.Link;
+import org.salram.utm.model.Resource;
 
 import java.util.ArrayList;
 import java.util.Hashtable;

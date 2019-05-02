@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.model;
+package org.salram.utm.model;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.rest;
+package org.salram.utm.rest;
 
 /**
  * Clase vacía para indentificar el paquete 

@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.service;
+package org.salram.utm.service;
 
 import java.util.List;
 

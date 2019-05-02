@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.config;
+package org.salram.utm.config;
 
 import java.util.Arrays;
 import java.util.List;
@@ -25,8 +25,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @EnableWebMvc
 @ComponentScan(
 		basePackageClasses = {
-				com.salram.mavenfinalproject.rest.ComponentPackageMaker.class,
-				com.salram.mavenfinalproject.rest.exception.ComponentPackageMaker.class}, 
+				org.salram.utm.rest.ComponentPackageMaker.class,
+				org.salram.utm.rest.exception.ComponentPackageMaker.class}, 
 		useDefaultFilters = false,
 		includeFilters = @ComponentScan.Filter({Controller.class,
 			ControllerAdvice.class}))

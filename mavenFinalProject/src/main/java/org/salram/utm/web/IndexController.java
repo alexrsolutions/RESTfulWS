@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.web;
+package org.salram.utm.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

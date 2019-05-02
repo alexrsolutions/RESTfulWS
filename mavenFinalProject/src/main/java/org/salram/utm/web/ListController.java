@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.web;
+package org.salram.utm.web;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -21,8 +21,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.View;
 
-import com.salram.mavenfinalproject.service.FileService;
-import com.salram.mavenfinalproject.view.DownloadView;
+import org.salram.utm.service.FileService;
+import org.salram.utm.view.DownloadView;
 
 @Controller
 public class ListController {

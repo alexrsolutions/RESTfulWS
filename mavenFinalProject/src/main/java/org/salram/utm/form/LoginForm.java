@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.form;
+package org.salram.utm.form;
 
 /**
  * POJO con dos atributos getters/setters:

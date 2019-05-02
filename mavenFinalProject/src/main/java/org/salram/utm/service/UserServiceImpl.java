@@ -1,12 +1,12 @@
-package com.salram.mavenfinalproject.service;
+package org.salram.utm.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.salram.mavenfinalproject.model.User;
-import com.salram.mavenfinalproject.repository.UserRepository;
+import org.salram.utm.model.User;
+import org.salram.utm.repository.UserRepository;
 
 @Service
 public class UserServiceImpl implements UserService {

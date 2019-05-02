@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.rest.exception;
+package org.salram.utm.rest.exception;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.view;
+package org.salram.utm.view;
 
 import org.springframework.web.servlet.View;
 import javax.servlet.http.HttpServletRequest;

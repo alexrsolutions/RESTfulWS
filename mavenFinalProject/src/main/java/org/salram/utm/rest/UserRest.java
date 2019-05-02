@@ -1,4 +1,4 @@
-package com.salram.mavenfinalproject.rest;
+package org.salram.utm.rest;
 
 import java.util.ArrayList;
 import java.util.Hashtable;
@@ -19,13 +19,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.salram.mavenfinalproject.form.UserForm;
-import com.salram.mavenfinalproject.model.Link;
-import com.salram.mavenfinalproject.model.User;
-import com.salram.mavenfinalproject.model.UserLinkListResource;
-import com.salram.mavenfinalproject.model.UserResource;
-import com.salram.mavenfinalproject.rest.exception.ResourceNotFoundException;
-import com.salram.mavenfinalproject.service.UserService;
+import org.salram.utm.form.UserForm;
+import org.salram.utm.model.Link;
+import org.salram.utm.model.User;
+import org.salram.utm.model.UserLinkListResource;
+import org.salram.utm.model.UserResource;
+import org.salram.utm.rest.exception.ResourceNotFoundException;
+import org.salram.utm.service.UserService;
 
 @Controller
 public class UserRest {
