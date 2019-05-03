@@ -26,6 +26,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.View;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+@Controller
 public class FileRest {
 	@Autowired
 	FileService fileService;
@@ -78,5 +79,5 @@ public class FileRest {
 		headers.add("Location", ServletUriComponentsBuilder.fromCurrentServletMapping().path("/file/?path="+dir+"/"+name).build().toString());
 
 		return new ResponseEntity<>(null, headers, HttpStatus.CREATED);
-}
+	}
 }

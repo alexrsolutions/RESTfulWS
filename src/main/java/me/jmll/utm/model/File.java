@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement
 public class File implements Serializable{
 	private static final long serialVersionUID = 1L;
 	private String name, path, fullPath, sizeBytes;

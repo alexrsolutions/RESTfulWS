@@ -6,6 +6,7 @@ import java.util.UUID;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement
 public class Notification implements Serializable{
 	private static final long serialVersionUID = 1L;
 	private String subject, message, messageId, status;

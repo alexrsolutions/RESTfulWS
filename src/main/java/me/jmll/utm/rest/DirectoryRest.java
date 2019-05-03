@@ -27,6 +27,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+@Controller
 public class DirectoryRest {
 	@Autowired
 	FileService fileService;
@@ -36,9 +37,9 @@ public class DirectoryRest {
 		HttpHeaders headers = new HttpHeaders();
 		headers.add("Allow", "OPTIONS,GET");
 		
-		Map<HttpMethod, String> methods = new Hashtable<>(3);
-		methods.put(HttpMethod.GET, "Lists specified directory contents in parameter 'dir'");
-		methods.put(HttpMethod.OPTIONS, "Resource documentation");
+		Map<HttpMethod, String> methods = new Hashtable<>(2);
+		methods.put(HttpMethod.GET, "Lists specified directory contents in parameter 'dir'.");
+		methods.put(HttpMethod.OPTIONS, "Resource documentation.");
 		
 		OptionsDoc options = new OptionsDoc();
 		options.setMethods(methods);
