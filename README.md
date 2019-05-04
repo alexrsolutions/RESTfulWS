@@ -4,7 +4,7 @@ Final project in Advanced Computing using Java
 # Acerca de
 Evidencia final de Computacion Avanzada en Java Avanzada en donde se crearon cuatro recursos REST utilizando Spring Framework. Estos recursos van a ser utilizados para modificar y mostar informacion recuperada de los datos que se encuentran inicializados dentro del Servicio.
 
-#Proyecto
+# Proyecto
 
 Este proyecto se realizo teniendo en mente el uso la implementacion de una RESTful API,
 de manera que nosotros podamos hacer uso de los metodos, GET, PUT, POST, OPTIONS y DELETE, mas que nada es solo una version de un Sistema CRUD. Dentro de las clases que cree, se hizo utilizando como base el ejercicio 12 de blackboard.
@@ -39,7 +39,7 @@ Una vez habiendo descargado el repositorio
 4. Actualizar las dependencias
 5. Correr en el servidor
 
-** Nota: ** si se corre en eclipse, los archivos que se van a descargar
+**Nota:** si se corre en eclipse, los archivos que se van a descargar
 en archivos tipo json en vez de mostrarse en xml.
 
 Para poder ver los archivos desde el buscador es recomendable tener el 
@@ -49,7 +49,7 @@ para poder realizar deploy del war (este se encuentra agregado en la pestaña de
 Despues de hacer deploy en la tabla principal va a salir una nueva direccion que se genero
 al hacer el deploy, hacer click y va redireccionar
 
-** Para exportar el proyecto en war desde eclipse **
+**Para exportar el proyecto en war desde eclipse**
 Es necesario hacer click derecho a la carpeta donde esta el proyecto en eclipse
 ir a la opcion exportar y escoger la opcion war. De ahi es solo seguir los pasos de 
 escoger la direccion donde se va a guardar el archivo y el nombre.
@@ -60,33 +60,35 @@ Para acceder a la GUI para hacer pruebas utiliza, username:"anakin" password:"sk
 Si el proyecto se desplego correctamente, lo primero que deberia salir es:
 ![alt text](https://firebasestorage.googleapis.com/v0/b/computacion-en-java.appspot.com/o/Computacion%20en%20Java%2Flogin.jpg?alt=media&token=d63b1bce-4b99-4545-8d6f-f922bc96552b)
 
-** localhost/utm/api/v1/ **
+En la URL es donde se van a generar la mayoria de las requisiciones de nuestro servicio:
+
+**localhost/utm/api/v1/**
 GET: Lista los recursos
 OPTION: Documentacion del srevicio
 
-En la URL es donde se van a generar la mayoria de las requisiciones de nuestro servicio:
-** localhost/utm/api/v1/user/ **
+
+**localhost/utm/api/v1/user/**
 GET: Listar los usuario
 POST: Crear usuario con los parametros username, password y fullName
 OPTIONS: Documentacion del servicio
 
-** localhost/utm/api/v1/user/{username} **
+**localhost/utm/api/v1/user/{username}**
 GET: Listar los datos del usuario
 PUT: Actualiza los datos del usuario con los parametros username, password y fullName
 OPTIONS: Documentacion del servicio
 DELET: Elimina usuario por medio de los parametros
 
-**  localhost/utm/api/v1/file/?path= **
+**localhost/utm/api/v1/file/?path=**
 GET: Descarga un archivo dando como parametro la direccion de donde se encuentra
 POST: Se sube un archivo con los parametros de nombre del archivo, la direccion donde quiere que se guarde "C:/tmp" para subirlo por medio de un GUI hay que accede con un usuario y contraseña
 OPTIONS: Documentacion del servicio
 DELETE: Elimina archivo con la direccion
 
-** localhost/utm/api/v1/directory/?dir= **
+**localhost/utm/api/v1/directory/?dir=**
 GET: Lista todos los documentos dentro de la direccion que se dio de parametro
 OPTIONS: Documentacion del servicio
 
-** localhost/utm/api/v1/notify/ **
+**localhost/utm/api/v1/notify/**
 GET: Lista todas las notificacion
 POST: Envia una notificacion utlizado los para metros de  subject, message, toAddress, y ccAddress
 
